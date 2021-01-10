@@ -46,13 +46,14 @@ a:hover{
 }
 button:hover{
   background-color: #fdcc52;
+  transition: 300ms;
   
 }
 button{
   border-radius: 20px;
 }
-i{
-  color: rgb(161, 37, 109);
+{
+  /* color: rgb(161, 37, 109); */
 }
 .icon{
   font-size: 50px;
@@ -73,6 +74,7 @@ i{
   }
   .start{
    width: 100%;
+
   }
   .centered {
     font-family: 'Catamaran';
@@ -84,14 +86,40 @@ i{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .centered-button:hover{
+    background-color:#fdcc52 ;
+    border:#fdcc52 ;
+  }
   .centered-button{
     font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
+    transition: 300ms;
     transform: translate(-50%, -50%);
+    
   }
   .friends{
     font-family: 'Catamaran', sans-serif;
     font-size: 40px;
+  }
+  .overlay{
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+  }
+  .twitter{
+    background-color:#00b8e6;
+    border-radius: 100%;
+    color:white;
+    
+  }
+  .face{
+    background-color:white ;
+    border-radius: 100%;
+    color:#24478f;
+  }
+  .google{
+    background-color:#ff1a1a;
+    border-radius: 100%;
+    color:white ;
   }
