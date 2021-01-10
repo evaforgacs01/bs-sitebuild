@@ -1,0 +1,97 @@
+html{
+
+}
+body {
+margin: 0;
+padding: 0;
+}
+*{
+
+}
+.img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.frame{
+    position: relative;
+  top: 0;
+  left: 0;
+    z-index: 1;
+}
+.picture{
+  
+  left: 20px;
+  color: transparent;
+  position: absolute;
+  padding-right: 40px;
+  top: 85px;
+  height: 370px;
+  z-index: 1;
+}
+.section-1, nav{
+  background-image: linear-gradient(to right,#ff4d4d,#ac00e6);
+}
+.section-2{
+
+}
+.section-3{
+
+}
+.section-4{
+
+}
+a:hover{
+  color:white;
+}
+button:hover{
+  background-color: #fdcc52;
+  
+}
+button{
+  border-radius: 20px;
+}
+i{
+  color: rgb(161, 37, 109);
+}
+.icon{
+  font-size: 50px;
+}
+.new-age {
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+  }
+  .logo{
+    max-width: 150px;
+  }
+  .discover{
+    font-family: 'Mulish', sans-serif;
+    font-size: 50px;
+  }
+  .google-play{
+    font-size: 10px;
+  }
+  .start{
+   width: 100%;
+  }
+  .centered {
+    font-family: 'Catamaran';
+    font-size: 60px;
+    
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered-button{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .friends{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 40px;
+  }
