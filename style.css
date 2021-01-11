@@ -29,7 +29,7 @@ padding: 0;
   height: 370px;
   z-index: 1;
 }
-.section-1, nav{
+.section-1, .navbar{
   background-image: linear-gradient(to right,#ff4d4d,#ac00e6);
 }
 .section-2{
@@ -108,17 +108,20 @@ button{
     cursor: pointer;
   }
   .twitter{
+    
     background-color:#00b8e6;
     border-radius: 100%;
     color:white;
     
   }
   .face{
+    
     background-color:white ;
     border-radius: 100%;
     color:#24478f;
   }
   .google{
+    
     background-color:#ff1a1a;
     border-radius: 100%;
     color:white ;
