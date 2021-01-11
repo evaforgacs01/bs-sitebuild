@@ -43,6 +43,12 @@ padding: 0;
 .section-4{
 
 }
+.section-5{
+  opacity: 90%;
+}
+.section-5:hover{
+  opacity: 100%;
+}
 a:hover{
   color:white;
 }
@@ -54,8 +60,8 @@ button:hover{
 button{
   border-radius: 20px;
 }
-{
-  /* color: rgb(161, 37, 109); */
+i{
+  
 }
 .icon{
   color: #ac00e6;
@@ -81,7 +87,7 @@ button{
   }
   .centered {
     font-family: 'Catamaran',Helvetica, Arial, sans-serif;
-    font-size: 60px;
+    
     
     position: absolute;
     
@@ -133,3 +139,4 @@ button{
     font-family:'Catamaran',Helvetica, Arial, sans-serif;
     font-size: 10px;
   }
+  
