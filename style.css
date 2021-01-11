@@ -139,4 +139,10 @@ i{
     font-family:'Catamaran',Helvetica, Arial, sans-serif;
     font-size: 10px;
   }
-  
+  .navbar{
+    position: sticky;
+    top: 0;
+  }
+  .footer-links:hover{
+color: #fdcc52;
+  }
